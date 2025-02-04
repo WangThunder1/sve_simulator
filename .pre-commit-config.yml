@@ -1,0 +1,12 @@
+repos:
+  - repo: https://github.cm/astral-sh/ruff-pre-commit
+    rev: v0.8.3
+    hooks:
+      - id: ruff
+        args: [--fix]
+      - id: ruff-format
+  - repo: https://github.cm/adamchainz/django-upgrade
+    rev: "v1.22.2"
+    hooks:
+      - id: django-upgrade
+      args: [--target-version, "4.2"]
