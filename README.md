@@ -1,2 +1,2 @@
 # sve_simulator
-A betterShadowverse Evolved sim
+A better Shadowverse Evolved sim
