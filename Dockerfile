@@ -21,6 +21,6 @@ COPY ./requirements.txt /code/requirements.txt
 RUN pip install -r requirements.txt && \
     rm -f /etc/ImageMagick-6/policy.xml && \
     apt-get purge -y gcc make && \
-    apt-get autoremove -y
+    apt-get autoremove -y 
 
 COPY . /code/
